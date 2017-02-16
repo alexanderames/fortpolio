@@ -11,14 +11,14 @@
     	min-height: 40vh;
     }
     div.typeani-container {
-/*font-family: 'Fredericka the Great', cursive;*/
+color: white;
 }
 
 /*H1 STYLE LONG*/
 .cd-headline.type .cd-words-wrapper {
     vertical-align: top;
     overflow: hidden;
-    color: black;
+    color: white;
 }
 
 .cd-headline.type .cd-words-wrapper::after {
@@ -47,26 +47,26 @@
 }
 .cd-headline.type .cd-words-wrapper.selected {
     background-color: transparent;
-    font-color: black;
+    color: white;
 }
 
 .cd-headline.type .cd-words-wrapper.selected::after {
     visibility: hidden;
-    color: black;
+    color: white;
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: black;
+    color: white;
 }
 
 .cd-headline.type b {
     visibility: hidden;
-    color: black;
+    color: white;
 }
 
 .cd-headline.type b.is-visible {
     visibility: visible;
-    color: black;
+    color: white;
 }
 
 .cd-headline.type i {
@@ -76,7 +76,7 @@
 .cd-headline.type i.in {
     position: relative;
     visibility: visible;
-    color: black;
+    color: white;
 }
 
 

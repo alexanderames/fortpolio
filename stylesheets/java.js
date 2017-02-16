@@ -139,5 +139,20 @@ $(document).ready(function(){
         $newWord.removeClass('is-hidden').addClass('is-visible');
     }
 });
-	
+//Smooth scroll to each sections
+$("#button1").click(function(){
+    $('html, body').animate({
+        scrollTop: $("#About").offset().top
+    }, 1200);
+});
+$("#button2").click(function(){
+    $('html, body').animate({
+        scrollTop: $("#Skills").offset().top
+    }, 1200);
+});
+$("#button3").click(function(){
+    $('html, body').animate({
+        scrollTop: $("#social-links").offset().top
+    }, 1000);
+});	
                 
