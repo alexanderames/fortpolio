@@ -1,19 +1,19 @@
-header, main, footer {
-  padding-left: 300px;
+    header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+    div.row {
+    	min-height: 40vh;
+    }
+    div.typeani-container {
+font-family: 'Fredericka the Great', cursive;
 }
 
-@media only screen and (max-width : 992px) {
-  header, main, footer {
-    padding-left: 0;
-  }
-}
-div.row {
-	min-height: 40vh;
-}
-div.typeani-container {
-  color: white;
-}
-git 
 /*H1 STYLE LONG*/
 .cd-headline.type .cd-words-wrapper {
     vertical-align: top;
@@ -47,7 +47,7 @@ git
 }
 .cd-headline.type .cd-words-wrapper.selected {
     background-color: transparent;
-    color: white;
+    font-color: white;
 }
 
 .cd-headline.type .cd-words-wrapper.selected::after {
